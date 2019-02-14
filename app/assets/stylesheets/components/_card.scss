@@ -1,0 +1,25 @@
+.cocktail-card{
+  background-color: red;
+  border: 1px solid white;
+  // padding: 100px 10px;
+  // margin: 40px;
+  // display: flex;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-around;
+  display: flex;
+  .cocktail-name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    padding: 70px 0px;
+    a{
+      text-decoration: none;
+      color: white;
+      text-shadow: 2px 2px 2px rgba(30,30,30,.4);
+    }
+  }
+  .card-image{
+    width: 80%
+  }
+}
