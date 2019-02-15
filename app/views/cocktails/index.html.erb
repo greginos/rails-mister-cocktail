@@ -2,7 +2,9 @@
 
 <div class="row">
     <% @cocktails.each do |cocktail| %>
-    <div class="cocktail-card col-xs-4">
+    <div class="cocktail-card col-xs-4" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),
+         url('<%= cl_image_path cocktail.photo, height: 300, width: 400, crop: :fill %>')">
+  >
       <!-- <img class="card-image" src="https://picsum.photos/600/300/?blur" alt=""> -->
       <div class="cocktail-name">
         <%= link_to cocktail.name, cocktail_path(cocktail.id)  %>
