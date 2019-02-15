@@ -1,16 +1,14 @@
 <h1 class="title">Quadro Cinquo</h1>
 
 <div class="row">
-  <div class="card-container">
     <% @cocktails.each do |cocktail| %>
-    <div class="cocktail-card col-xs-12 col-sm-6 col-md-4">
+    <div class="cocktail-card col-xs-4">
       <!-- <img class="card-image" src="https://picsum.photos/600/300/?blur" alt=""> -->
       <div class="cocktail-name">
         <%= link_to cocktail.name, cocktail_path(cocktail.id)  %>
       </div>
     </div>
     <% end %>
-  </div>
 </div>
 
 <div class="row cocktail-add">
