@@ -8,3 +8,18 @@
   display: flex;
   justify-content: space-between;
 }
+
+.button_submit_container{
+  position: relative;
+}
+
+.plus{
+  position: absolute;
+  top: 27%;
+  left: 33%;
+}
+
+.plus_button{
+  height: 100%;
+  width: 60px;
+}
