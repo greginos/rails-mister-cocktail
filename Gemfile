@@ -32,7 +32,7 @@ gem 'cloudinary', '~> 1.9.1'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 gem 'autoprefixer-rails'
-gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'font-awesome-sass', '~> 5.0.9'
 gem 'simple_form'
 gem 'carrierwave', '~> 1.2'
